@@ -14,4 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-https://solvedac-cards-starcea.paring.moe/profile/djlumiere?size=300?color=dark
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/generate_badge?boj={djeleanor2})](https://solved.ac/{djeleanor2})
