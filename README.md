@@ -13,7 +13,7 @@ C#으로 밑바닥까지 파고들며 직접 만드는 걸 좋아하는 개발�
 
 ### 📌 Featured Projects
 
-**[RazorForge & Suflae](https://github.com/dj-lumiere/razorforge-suflae)** — C#으로 직접 설계한 프로그래밍 언어 & 컴파일러
+**<img src="assets/razorforge.svg" width="18" alt=""> <img src="assets/suflae.svg" width="18" alt=""> [RazorForge & Suflae](https://github.com/dj-lumiere/razorforge-suflae)** — C#으로 직접 설계한 프로그래밍 언어 & 컴파일러
 > 두 언어(시스템/스크립팅)를 하나의 표준 라이브러리로. 타입 시스템·메모리 모델·동시성 프리미티브(Arc, 락, 채널, 그린 스레드)를 직접 설계. LLVM 백엔드. [📖 RazorForge Docs](https://razorforge.lumi-dev.xyz) · [📖 Suflae Docs](https://suflae.lumi-dev.xyz)
 
 **<img src="https://raw.githubusercontent.com/dj-lumiere/Tessera/master/assets/logo.svg" width="18" alt=""> [Tessera](https://github.com/dj-lumiere/Tessera)** — 연산을 한 단계씩 명시적으로 쓰는 구조적 SSA 언어 & 컴파일러
