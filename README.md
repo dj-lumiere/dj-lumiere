@@ -13,8 +13,13 @@ C#으로 밑바닥까지 파고들며 직접 만드는 걸 좋아하는 개발�
 
 ### 📌 Featured Projects
 
-**<img src="assets/razorforge.svg" width="18" alt=""> <img src="assets/suflae.svg" width="18" alt=""> [RazorForge & Suflae](https://github.com/dj-lumiere/razorforge-suflae)** — C#으로 직접 설계한 프로그래밍 언어 & 컴파일러
-> 정밀함을 앞세운 RazorForge와 가볍게 쓰는 Suflae, 문법과 표준 라이브러리를 공유하는 두 언어. GC도 수명 표기도 없는 단일 소유권, 실패는 기본적으로 크게 터지고 키워드 하나(`try`/`grab`/`lookup`)로 복구하는 에러 모델, 오버플로 동작을 직접 고르는 수치 타입, 코루틴과 OS 스레드를 `Agent[T]` 하나로 묶은 동시성을 직접 설계. LLVM 백엔드. [📖 RazorForge Docs](https://razorforge.lumi-dev.xyz) · [📖 Suflae Docs](https://suflae.lumi-dev.xyz)
+**<img src="assets/razorforge.svg" width="18" alt=""> [RazorForge](https://github.com/dj-lumiere/RazorForge)** — 정밀함을 앞세워 직접 설계한 네이티브 컴파일 언어
+> GC도 수명 표기도 없는 단일 소유권, 실패는 기본적으로 크게 터지고 키워드 하나(`try`/`grab`/`lookup`)로 복구하는 에러 모델, 오버플로 동작을 직접 고르는 수치 타입, 코루틴과 OS 스레드를 `Agent[T]` 하나로 묶은 동시성. [📖 Docs](https://razorforge.lumi-dev.xyz)
+
+**<img src="assets/suflae.svg" width="18" alt=""> [Suflae](https://github.com/dj-lumiere/Suflae)** — 공유 상태를 가볍게 다루는 RazorForge의 자매 언어
+> 엔티티는 참조 카운트 핸들이고, 스레드를 건너가면 스스로 잠금을 겁니다. 실패 모델과 표준 라이브러리를 RazorForge와 공유하고, REPL을 중심으로 설계. [📖 Docs](https://suflae.lumi-dev.xyz)
+
+> 두 언어는 C# 빌더 코어 **[Anvila](https://github.com/dj-lumiere/Anvila)**(파싱 · 의미 검증 · 단형화 · LLVM IR 생성, 빌드 데몬과 JIT 개발 루프)와 C 네이티브 런타임 **[Ingrid](https://github.com/dj-lumiere/Ingrid)**(코어별 워커 스레드 위의 코루틴, libuv 비동기 I/O, 스택 트레이스가 담긴 크래시 리포트)를 함께 씁니다.
 
 **<img src="https://raw.githubusercontent.com/dj-lumiere/Tessera/master/assets/logo.svg" width="18" alt=""> [Tessera](https://github.com/dj-lumiere/Tessera)** — 연산을 한 단계씩 명시적으로 쓰는 구조적 SSA 언어 & 컴파일러
 > 연산자 없이 operation → block → routine → module로 쌓아 올리는 언어. SSA 값, φ 대신 블록 파라미터, 명시적 메모리. 표준 라이브러리는 Tessera로 직접 작성하고, C# 컴파일러가 LLVM IR로 낮춤. [📖 Docs](https://tessera.lumi-dev.xyz/docs/)
