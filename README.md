@@ -22,7 +22,7 @@ C#으로 밑바닥까지 파고들며 직접 만드는 걸 좋아하는 개발�
 > 두 언어는 C# 빌더 코어 **[Anvila](https://github.com/dj-lumiere/Anvila)**(파싱 · 의미 검증 · 단형화 · LLVM IR 생성, 빌드 데몬과 JIT 개발 루프)와 C 네이티브 런타임 **[Ingrid](https://github.com/dj-lumiere/Ingrid)**(코어별 워커 스레드 위의 코루틴, libuv 비동기 I/O, 스택 트레이스가 담긴 크래시 리포트)를 함께 씁니다.
 
 **<img src="assets/tessera.svg" width="18" alt=""> [Tessera](https://github.com/dj-lumiere/Tessera)** — 연산을 한 단계씩 명시적으로 쓰는 구조적 SSA 언어 & 컴파일러
-> 연산자 없이 operation → block → routine → module로 쌓아 올리는 언어. SSA 값, φ 대신 블록 파라미터, 명시적 메모리. 표준 라이브러리는 Tessera로 직접 작성하고, C# 컴파일러가 LLVM IR로 낮춤. [📖 Docs](https://tessera.lumi-dev.xyz/docs/)
+> 연산자 없이 operation → block → routine → module로 쌓아 올리는 언어. SSA 값, φ 대신 블록 파라미터, 명시적 메모리. 표준 라이브러리는 Tessera로 직접 작성하고, C# 컴파일러가 LLVM IR로 낮춤. [📖 Docs](https://tessera.lumi-dev.xyz/)
 
 **[DebugUtils](https://github.com/dj-lumiere/DebugUtils-CSharp)** — C# 객체 상태 자동 시각화 디버깅 라이브러리
 > Reflection/Attribute 기반으로 50+ 타입 자동 지원. 스택 할당 기반 고성능 IEEE 754 변환.
